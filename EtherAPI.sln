@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EtherAPI", "ProjetoEngenhariaIII\EtherAPI.csproj", "{DD56D7A7-0070-4FBB-91F2-783F5E25CCDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD56D7A7-0070-4FBB-91F2-783F5E25CCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD56D7A7-0070-4FBB-91F2-783F5E25CCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD56D7A7-0070-4FBB-91F2-783F5E25CCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD56D7A7-0070-4FBB-91F2-783F5E25CCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E261F12-0753-4912-9D59-2E7580593D96}
+	EndGlobalSection
+EndGlobal

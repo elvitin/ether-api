@@ -1,0 +1,39 @@
+{
+  "profiles": {
+    "EtherAPI": {
+      "commandName": "Project",
+      "launchUrl": "http://localhost:5106/api/Produto/Buscar?Id=1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5106"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "http://localhost:5106/api/Produto/Buscar?Id=1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5106/api/Produto/Buscar?Id=1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5106"
+      },
+      "distributionName": ""
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:24002",
+      "sslPort": 0
+    }
+  }
+}
