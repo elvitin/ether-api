@@ -15,8 +15,7 @@ namespace EtherAPI.Data.MySql
 
     public void Conectar()
     {
-      strConexao = "Server=us-cdbr-east-04.cleardb.com;Database=heroku_def03bde5529281;Uid=b2f76844e0e397;Pwd=ed4c9ae9;";
-      //strConexao = "Server=mysql05-farm88.kinghost.net; Database=vartechs15; Uid=vartechs15; Pwd=A123456789a1;";
+      strConexao = Environment.GetEnvironmentVariable("connString");
       conn = new MySqlConnection(strConexao);
       cmd = conn.CreateCommand();
     }
